@@ -1,4 +1,4 @@
-package com.harshit.quantitymeasurement;
+package com.harshit.quantitymeasurement.domain;
 
 import java.util.function.DoubleBinaryOperator;
 

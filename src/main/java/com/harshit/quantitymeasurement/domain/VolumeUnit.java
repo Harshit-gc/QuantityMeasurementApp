@@ -1,4 +1,4 @@
-package com.harshit.quantitymeasurement;
+package com.harshit.quantitymeasurement.domain;
 
 public enum VolumeUnit implements IMeasurable {
 	MILLILITRE(0.001),

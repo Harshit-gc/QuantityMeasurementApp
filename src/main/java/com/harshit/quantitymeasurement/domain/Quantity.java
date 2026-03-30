@@ -1,4 +1,4 @@
-package com.harshit.quantitymeasurement;
+package com.harshit.quantitymeasurement.domain;
 
 public class Quantity<U extends IMeasurable> {
 	
