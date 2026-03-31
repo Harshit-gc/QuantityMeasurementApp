@@ -25,7 +25,7 @@ This project follows a *progressive development approach, where each use case bu
 
 | UC | Branch | Description |
 |----|--------|-------------|
-| UC1 | [feature/UC1-FeetEquality](/tree/feature/UC1-FeetEquality) | Validate equality between two feet values |
+| UC1 | [feature/UC1-FeetEquality](./tree/feature/UC1-FeetEquality) | Validate equality between two feet values |
 | UC2 | [feature/UC2-InchEquality](/tree/feature/UC2-InchEquality) | Validate equality between two inch values |
 | UC3 | [feature/UC3-GenericLength](/tree/feature/UC3-GenericLength) | Introduced LengthUnit enum with conversion logic |
 | UC4 | [feature/UC4-YardEquality](/tree/feature/UC4-YardEquality) | Added YARDS unit (1 yard = 3 feet = 36 inches) |
