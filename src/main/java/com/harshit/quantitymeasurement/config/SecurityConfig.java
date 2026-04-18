@@ -30,6 +30,7 @@ public class SecurityConfig {
     }
 
     private static final String[] PUBLIC_URLS = {
+        "/",
         "/auth/**",
         "/h2-console/**",
         "/swagger-ui/**",
@@ -48,6 +49,7 @@ public class SecurityConfig {
             throws Exception {
 
         http.csrf(AbstractHttpConfigurer::disable)
+            .cors(cors -> {})
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers(PUBLIC_URLS).permitAll()
                 .requestMatchers("/api/v1/admin/**").hasRole("ADMIN")
