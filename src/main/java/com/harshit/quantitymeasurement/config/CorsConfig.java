@@ -11,7 +11,7 @@ import java.util.List;
 @Configuration
 public class CorsConfig {
 
-    @Value("${FRONTEND_URL:https://quantity-measurement-app-frontend-seven-iota.vercel.app}")
+	@Value("${FRONTEND_URL:https://quantity-measurement-app-frontend-henna.vercel.app}")
     private String frontendUrl;
 
     @Bean
